@@ -5,8 +5,11 @@
 
 ## Install
 
-```
-$ npm install is-installed-on-system
+```sh
+$ git clone https://github.com/rjoydip/is-installed-on-system.git
+$ cd is-installed-on-system
+$ npm install
+$ npm run test
 ```
 
 

@@ -1,0 +1,44 @@
+{
+  "name": "is-installed-on-system",
+  "version": "0.0.1",
+  "description": "Check if your installer was installed on system",
+  "license": "MIT",
+  "repository": "rjoydip/is-installed-on-system",
+  "author": {
+    "name": "Joydip Roy",
+    "email": "joydipand@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "global",
+    "package",
+    "globally",
+    "module",
+    "install",
+    "installed",
+    "npm",
+    "yarn",
+    "is",
+    "check",
+    "detect",
+    "local",
+    "locally",
+    "cli",
+    "bin",
+    "binary"
+  ],
+  "dependencies": {
+    "path-key": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}

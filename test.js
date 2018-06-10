@@ -1,9 +1,9 @@
 const isInstalledOnSystem = require('.')
 
-test('isInstalledOnSystem:false', async () => {
+test('isInstalledOnSystem:false', () => {
 	expect(isInstalledOnSystem('gitx')).toBe(false)
 })
 
-test('isInstalledOnSystem:true', async () => {
+test('isInstalledOnSystem:true', () => {
 	expect(isInstalledOnSystem('git')).toBe(false)
 })

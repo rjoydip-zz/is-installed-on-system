@@ -1,44 +1,33 @@
 {
   "name": "is-installed-on-system",
-  "version": "0.0.1",
-  "description": "Check if your installer was installed on system",
+  "version": "1.0.0",
+  "description": "Checks that given package is installed on system",
   "license": "MIT",
   "repository": "rjoydip/is-installed-on-system",
   "author": {
-    "name": "Joydip Roy",
+    "name": "Joydip Roy (rjoydip)",
     "email": "joydipand@gmail.com"
   },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
-    "test": "ava"
+    "test": "./node_modules/.bin/jest --coverage test.js"
   },
   "files": [
     "index.js"
   ],
   "keywords": [
-    "global",
     "package",
-    "globally",
-    "module",
-    "install",
     "installed",
-    "npm",
-    "yarn",
     "is",
     "check",
-    "detect",
-    "local",
-    "locally",
-    "cli",
-    "bin",
-    "binary"
+    "is installed"
   ],
   "dependencies": {
     "path-key": "^2.0.1"
   },
   "devDependencies": {
-    "ava": "^0.25.0"
+    "jest": "^23.1.0"
   }
 }

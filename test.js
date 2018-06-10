@@ -1,11 +1,9 @@
-import test from 'ava'
+const isInstalledOnSystem = require('.')
 
-import isInstalledOnSystem from './'
-
-test('isInstalledOnSystem:false', async t => {
-	t.is(isInstalledOnSystem('gitx'), true)
+test('isInstalledOnSystem:false', async () => {
+	expect(isInstalledOnSystem('gitx')).toBe(false)
 })
 
-test('isInstalledOnSystem:true', async t => {
-	t.is(isInstalledOnSystem('git'), true)
+test('isInstalledOnSystem:true', async () => {
+	expect(isInstalledOnSystem('git')).toBe(true)
 })

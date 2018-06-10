@@ -1,17 +1,15 @@
-# is-installed-globally [![Build Status](https://travis-ci.org/rjoydip/is-installed-on-system.svg?branch=master)](https://travis-ci.org/rjoydip/is-installed-on-system)
+# is-installed-on-system [![Build Status](https://travis-ci.org/rjoydip/is-installed-on-system.svg?branch=master)](https://travis-ci.org/rjoydip/is-installed-on-system)
 
-> Check if your installer was installed on system
-
+> Checks that given package is installed on system
 
 ## Install
 
 ```sh
-$ git clone https://github.com/rjoydip/is-installed-on-system.git
-$ cd is-installed-on-system
-$ npm install
-$ npm run test
+git clone https://github.com/rjoydip/is-installed-on-system.git
+cd is-installed-on-system
+npm install
+npm run test
 ```
-
 
 ## Usage
 

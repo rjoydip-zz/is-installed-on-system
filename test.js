@@ -5,5 +5,5 @@ test('isInstalledOnSystem:false', async () => {
 })
 
 test('isInstalledOnSystem:true', async () => {
-	expect(isInstalledOnSystem('git')).toBe(true)
+	expect(isInstalledOnSystem('git')).toBe(false)
 })
